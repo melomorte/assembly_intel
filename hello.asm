@@ -12,7 +12,7 @@ _start:
 	mov edx, len
 	mov ecx, msg
 	mov ebx, 1
-	mox eax, 4
+	mov eax, 4
 	int 0x80
 
 	mov eax, 1
